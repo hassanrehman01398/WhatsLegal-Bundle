@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-spring-service
+  description: My Spring Boot Service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
